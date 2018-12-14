@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 #
 # Tool: PhobiaForce
-# Author: ./Tsuki || Domonic404
+# Author: ./Tsuki 
 # Contact: phobiaxploi@gmail.com
 # Script Realise : 2018
 #
@@ -45,10 +45,10 @@ if(!defined($ARGV[0] && $ARGV[1])) {
 
 system('clear');
 print "\n+++ PhobiaForce\n";
-print "+++ Author ./Tsuki || Dominic404\n";
+print "+++ Author ./Tsuki \n";
 print "+++ Team: PhobiaXploit\n\n";
 print "                             .:Thanks To:.\n";
-print "Ms Takyun-Mr.Cay-Mr.cyb3-P4HLAWAN_K3SIANGAN-R-MR.D4RK-203-Chemod_zrd404 \n";
+print "Ms Takyun-Mr.Cay-Mr.cyb3-P4HLAWAN_K3SIANGAN-R-MR.D4RK-203-Dominic404 \n";
 print "                         All Member PhobiaXploit \n\n";
 print "+++ Pengunaan: perl $0 login wordlist\n\n";
 exit; }
@@ -59,7 +59,7 @@ my $wordlist = $ARGV[1];
 open (LIST, $wordlist) || die "\n[-] No Wordlist On $wordlist -_- \n";
 
 print "\n+++ PhobiaForce\n";
-print "+++ Author ./Tsuki || Dominic404\n";print "\n[+] Memulai Cracking Pada >>> $user <<<\n\n";
+print "+++ Author ./Tsuki \n";print "\n[+] Memulai Cracking Pada >>> $user <<<\n\n";
 
 while (my $password = <LIST>) {
 chomp ($password);
